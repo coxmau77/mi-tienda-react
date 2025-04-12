@@ -97,6 +97,56 @@
     }
 }
 
+/* Estilos generales para el footer */
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+
+    .footer-content {
+        max-width: 960px;
+        margin: 0 auto;
+
+        /* Contacto */
+        .contact-info {
+            margin-top: 1rem;
+
+            p {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    margin: 0.25rem 0;
+
+                    a {
+                        color: #ffc107;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive para pantallas chicas */
+@media (max-width: 600px) {
+    .contact-info ul {
+        padding-left: 0;
+    }
+}
+
 /* Responsive: convertir a columna en pantallas pequeñas */
 @media (max-width: 768px) {
     .nav-links {
