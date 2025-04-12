@@ -1,0 +1,8 @@
+/* Nos vamos a enfocar solo en react, los estilos los vamos a aplicar en la creación de componentes, a futura mejora implementaremos TailwindCSS */
+
+.active {
+    background-color: pink;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
