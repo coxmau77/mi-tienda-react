@@ -7,8 +7,8 @@ function BuyButton({ producto }) {
     };
   
     return (
-      <button type="button" onClick={manejarCompra}>
-        Comprar
+      <button type="button" className="buy-button" onClick={manejarCompra}>
+        comprar ahora
       </button>
     );
   }

@@ -33,16 +33,14 @@
   -ms-text-size-adjust: 100%;
 
   button {
-    background-color: inherit;
-    color: inherit;
-    font-weight: inherit;;
-    border: solid 1px tomato;
+    
+    font-weight: inherit;
     border-radius: 8px;
+    border: none;
     cursor: pointer;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    padding: .3rem 0.6rem;
     margin: 0;
     text-align: center;
     text-decoration: none;
