@@ -29,13 +29,13 @@ function App() {
           temas={[
             "HTML",
             "CSS",
-            "React",
-            "JavaScript",
+            "react",
+            "javaScript",
             "APIs",
-            "Diseño UX",
-            "Node.js",
+            "diseño UX",
+            "node.js",
           ]}
-        />
+        />""
       </>
       <Main />
       <Gallery />

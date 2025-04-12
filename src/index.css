@@ -31,4 +31,27 @@
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
+  button {
+    background-color: inherit;
+    color: inherit;
+    font-weight: inherit;;
+    border: solid 1px tomato;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: .3rem 0.6rem;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .active {
+    background-color: black;
+    color: tomato;
+    border-radius: 4px;
+    padding: 8px;
+  }
 }

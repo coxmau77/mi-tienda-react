@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
+    background-color: tomato;
     padding: 0.75rem 1.5rem;
     color: white;
     flex-wrap: wrap;
@@ -99,7 +99,7 @@
 
 /* Estilos generales para el footer */
 .footer {
-    background-color: #343a40;
+    background-color: tomato;
     color: #f8f9fa;
     padding: 1.5rem 1rem;
     text-align: center;
@@ -136,6 +136,22 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    button {
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #ffc107;
+            color: black;
         }
     }
 }
