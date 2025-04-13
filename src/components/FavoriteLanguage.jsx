@@ -14,12 +14,12 @@ function FavoriteLanguage({ temas }) {
   return (
     <section className="temas-container">
       <mark>Selecciona tu tecnología favorita</mark>
-      <div className="botones">
+      <div className="boton-favorito-list">
         {temas.map((tema, index) => (
           <button
             key={index}
             onClick={() => manejarSeleccion(tema)}
-            className={tema === seleccionado ? 'active' : ''}
+            className={`boton-favorito ${tema === seleccionado ? 'active' : ''}`}
           >
             {tema}
           </button>

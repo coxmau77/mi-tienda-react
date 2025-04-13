@@ -35,7 +35,7 @@ function App() {
             "diseño UX",
             "node.js",
           ]}
-        />""
+        />
       </>
       <Main />
       <Gallery />

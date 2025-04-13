@@ -2,27 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: tomato;
+    background-color: var(--primary-clr);
     padding: 0.75rem 1.5rem;
-    color: white;
     flex-wrap: wrap;
 
     .logo {
         font-size: 1.5rem;
         font-weight: bold;
+        color: var(--light-clr);
     }
 
     .nav-links {
-        list-style: none;
         display: flex;
         gap: 1.5rem;
-        margin: 0;
-        padding: 0;
 
         li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
+            color: var(--light-clr);
             transition: color 0.3s ease;
 
             &:hover {
@@ -42,8 +37,9 @@
     text-align: center;
 
     .card {
-        background-color: white;
-        border: 1px solid #ccc;
+        background-color: light-dark(var(--light-clr), transparent);
+        border: 1px solid light-dark(var(--dark-clr), var(--primary-clr));
+        color: light-dark(var(--dark-clr), var(--primary-clr));
         border-radius: 10px;
         padding: 20px;
         margin: 5px 0;
@@ -59,9 +55,38 @@
 
             address {
                 font-size: 0.8em;
-                color: #666;
+                /* color: #666; */
+                opacity: 0.8;
             }
         }
+    }
+}
+
+.boton-favorito-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 1rem 2rem;
+    max-width: 1000px;
+
+    .boton-favorito {
+        transition: background-color 0.3s ease;
+        background-color: greenyellow;
+        color: green;
+        border-radius: .2rem;
+
+        &:hover {            
+            cursor: wait;
+            background-color: #ffc107;
+            color: black;
+        }
+    }
+
+    .active {
+        background-color: black;
+        color: tomato;
+        border-radius: 10vw;
     }
 }
 
@@ -76,9 +101,10 @@
     width: 100%;
 
     .product-card {
+        color: var(--dark-clr);
         background-color: white;
-        border: 1px solid #ccc;
-        border-radius: 10px;
+        border: 1px solid light-dark(var(--dark-clr), var(--primary-clr));
+        border-radius: 1.4rem;
         padding: 20px;
         margin: 5px 0;
         width: 300px;
@@ -93,6 +119,20 @@
         h3 {
             font-size: 1.5em;
             margin: 0;
+        }
+
+        .buy-button {
+            color: purple;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            padding: .4rem 1rem;
+            border-radius: 8px 20px;
+
+            &:hover {
+                color: var(--light-clr);
+                background-color: var(--secondary-clr);
+                cursor: progress;
+            }
         }
     }
 }
@@ -137,35 +177,6 @@
                 }
             }
         }
-    }
-}
-
-.botones {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 1rem;
-
-    button {
-        transition: background-color 0.3s ease;
-
-        &:hover {
-            background-color: #ffc107;
-            color: black;
-        }
-    }
-}
-
-.buy-button {
-    background-color: tomato;
-    color: white;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    padding: .4rem 1rem;
-
-    &:hover {
-        background-color: #ffc107;
-        color: tomato;
     }
 }
 
