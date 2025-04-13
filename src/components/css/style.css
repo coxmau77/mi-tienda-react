@@ -62,33 +62,48 @@
     }
 }
 
-.boton-favorito-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.2rem;
-    margin: 1rem 2rem;
-    max-width: 1000px;
+.temas-container {
+    background-color: #ffc107;
+    padding: 0.5rem 1rem;
 
-    .boton-favorito {
-        transition: background-color 0.3s ease;
-        background-color: greenyellow;
-        color: green;
-        border-radius: .2rem;
+    mark {
+        background-color: violet;
+        color: white;
+        padding: .2rem 1rem;
+        border-radius: 10vw;
+        position: relative;
+        top: -15px;
 
-        &:hover {            
-            cursor: wait;
-            background-color: #ffc107;
-            color: black;
+    }
+
+    .boton-favorito-list {
+        display: flex;
+        gap: .4rem;
+        column-gap: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .boton-favorito {
+            transition: background-color 0.3s ease;
+            background-color: greenyellow;
+            color: green;
+            border-radius: .2rem;
+
+            &:hover {
+                cursor: wait;
+                background-color: #ffc107;
+                color: black;
+            }
+        }
+
+        .active {
+            background-color: black;
+            color: tomato;
+            border-radius: 10vw;
         }
     }
-
-    .active {
-        background-color: black;
-        color: tomato;
-        border-radius: 10vw;
-    }
 }
+
 
 .product-list {
     display: flex;
