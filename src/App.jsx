@@ -10,7 +10,7 @@ import Team from "./components/Team";
 import ProjectCard from "./components/ProyectCard";
 import FavoriteLanguage from "./components/FavoriteLanguage";
 
-import "./App.css";
+// import "./App.css"; //Removed...
 
 function App() {
   return (

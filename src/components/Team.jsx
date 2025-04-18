@@ -27,42 +27,42 @@ const team = [
     email: "emily.davis@example.com",
     avatar: "https://randomuser.me/api/portraits/women/4.jpg",
   },
-  {
-    id: 5,
-    name: "Michael Brown",
-    email: "michael.brown@example.com",
-    avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    id: 6,
-    name: "Sarah Wilson",
-    email: "sarah.wilson@example.com",
-    avatar: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-  {
-    id: 7,
-    name: "David Garcia",
-    email: "david.garcia@example.com",
-    avatar: "https://randomuser.me/api/portraits/men/7.jpg",
-  },
-  {
-    id: 8,
-    name: "Laura Martinez",
-    email: "laura.martinez@example.com",
-    avatar: "https://randomuser.me/api/portraits/women/8.jpg",
-  },
-  {
-    id: 9,
-    name: "James Rodriguez",
-    email: "james.rodriguez@example.com",
-    avatar: "https://randomuser.me/api/portraits/men/9.jpg",
-  },
-  {
-    id: 10,
-    name: "Olivia Thompson",
-    email: "olivia.thompson@example.com",
-    avatar: "https://randomuser.me/api/portraits/women/10.jpg",
-  },
+  // {
+  //   id: 5,
+  //   name: "Michael Brown",
+  //   email: "michael.brown@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Sarah Wilson",
+  //   email: "sarah.wilson@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   name: "David Garcia",
+  //   email: "david.garcia@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/men/7.jpg",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Laura Martinez",
+  //   email: "laura.martinez@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/women/8.jpg",
+  // },
+  // {
+  //   id: 9,
+  //   name: "James Rodriguez",
+  //   email: "james.rodriguez@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/men/9.jpg",
+  // },
+  // {
+  //   id: 10,
+  //   name: "Olivia Thompson",
+  //   email: "olivia.thompson@example.com",
+  //   avatar: "https://randomuser.me/api/portraits/women/10.jpg",
+  // },
 ];
 
 // src/components/Team.jsx
